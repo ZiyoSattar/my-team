@@ -6,8 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>my team by ziyo</title>
-  <link rel="stylesheet" href="styles/styles.css">
-  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/normalize.css">
+
 </head>
 
 <body>
@@ -20,56 +21,63 @@
         <a href="#"><img src="./img/logo.svg" alt="logo"></a>
 
         <nav class="navbar">
-          <ul class="navbar-list">
-            <li><a href="#">home</a></li>
-            <li><a href="#">about</a></li>
+          <ul class="inner__list">
+            <li><a href="./index.html">home</a></li>
+            <li><a href="./about.html">about</a></li>
           </ul>
 
         </nav>
-        <a class="contact-link" href="#">contact us</a>
+        <a class="inner__link" href="./contact.html">contact us</a>
 
-        <button class="menu" ><img class="menu-img" src="./img/menu.png" alt="menu" width="25" height="25"></button>
+        <button class="menu"><img class="menu-img" src="./img/menu.png" alt="menu" width="25" height="25"></button>
       </div>
     </div>
   </header>
 
 
   <main>
-    <section class="hero-section">
+    <section class="hero">
       <div class="container">
-        <div class="hero">
+        <div class="hero__inner">
 
-          <div class="tittle-div">
-            <h2 class="hero-tittle">Find the best <span class="hero-span">talent</span> </h2>
+          <div class="hero__div">
+            <h2 class="hero__tittle">Find the best <span class="hero__span">talent</span> </h2>
           </div>
-          <div class="people-div">
-            <p class="hero-text">Finding the right people and building high performing teams can be hard. Most companies
-              aren’t tapping into
+          <div class="hero__people-div">
+            <p class="hero__text">Finding the right people and building high performing teams can be hard. Most
+              companies
+              aren't tapping into
               the abundance of global talent. We're about to change that.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="manage-section">
+    <section class="manage">
       <div class="container">
-        <div class="manage">
-          <div class="manage-text">
+        <div class="manage__inner">
+          <div class="manage__text">
             <h2>Build & manage distributed teams like no one else.</h2>
           </div>
 
-          <ul class="manage-list">
-            <li><p class="easy">Experienced Individuals </p>
-            <p class="networks">Our network is made up of highly experienced professionals who are passion ate about what they do.</p>
+          <ul class="manage__list">
+            <li>
+              <p class="manage__easy">Experienced Individuals </p>
+              <p class="manage__networks">Our network is made up of highly experienced professionals who are passion ate
+                about what they do.</p>
             </li>
 
-            <li><p class="easy"> Easy to Implement</p>
-              <p class="networks">Our processes have been refined over years of implementation meaning our teams always deliver.</p>
-              </li>
-              
-              <li><p class="easy"> Enhanced Productivity</p>
-                <p class="networks">Our customized platform with in-built analytics helps you manage your distributed teams.</p>
-                </li>
+            <li>
+              <p class="manage__easy"> Easy to Implement</p>
+              <p class="manage__networks">Our processes have been refined over years of implementation meaning our teams
+                always deliver.</p>
+            </li>
+
+            <li>
+              <p class="manage__easy"> Enhanced Productivity</p>
+              <p class="manage__networks">Our customized platform with in-built analytics helps you manage your
+                distributed teams.</p>
+            </li>
           </ul>
 
         </div>
@@ -78,54 +86,108 @@
 
     <section class="stories">
       <div class="container">
-        <div class="stories-inner">
-          <h3 class="stories-heading">
-            Delivering real results for top companies. Some of our <span class="stories-heading-span">success
+        <div class="stories__inner">
+          <h3 class="stories__heading">
+            Delivering real results for top companies. Some of our <span class="stories__heading-span">success
               stories.</span>
           </h3>
 
-         
 
-          <ul class="stories-list">
-            <li class="stories-item">
-              <blockquote class="stories-quote">
+
+          <ul class="stories__list">
+            <li class="stories__item">
+              <blockquote class="stories__quote">
                 “The team perfectly fit the specialized skill set required. They focused on the most essential features
                 helping us launch the platform eight months faster than planned.”
               </blockquote>
 
-              <p class="stories-name">Kady Baker</p>
-              <p class="stories-position">Product Manager at Bookmark</p>
+              <p class="stories__name">Kady Baker</p>
+              <p class="stories__position">Product Manager at Bookmark</p>
 
-              <img class="stories-img" src="./img/kady-baker.png" alt="Kady Baker" width="62" height="62">
+              <img class="stories__img" src="./img/kady-baker.png" alt="Kady Baker" width="62" height="62">
             </li>
-            <li class="stories-item">
-              <blockquote class="stories-quote">
+            <li class="stories__item">
+              <blockquote class="stories__quote">
                 “We needed to automate our entire onboarding process. The team came in and built out the whole journey.
                 Since going live, user retention has gone through the roof!”
               </blockquote>
 
-              <p class="stories-name">Aiysha Reese</p>
-              <p class="stories-position">Founder of Manage</p>
+              <p class="stories__name">Aiysha Reese</p>
+              <p class="stories__position">Founder of Manage</p>
 
-              <img class="stories-img" src="./img/aiysha-reese.png" alt="Aiysha Reese" width="62" height="62">
+              <img class="stories__img" src="./img/aiysha-reese.png" alt="Aiysha Reese" width="62" height="62">
             </li>
-            <li class="stories-item">
-              <blockquote class="stories-quote">
+            <li class="stories__item">
+              <blockquote class="stories__quote">
                 “Amazing. Our team helped us build an app that delivered a new experience for hiring a physio. The
                 launch was an instant success with 100k downloads in the first month.”
               </blockquote>
 
-              <p class="stories-name">Arthur Clarke</p>
-              <p class="stories-position">Co-founder of MyPhysio</p>
+              <p class="stories__name">Arthur Clarke</p>
+              <p class="stories__position">Co-founder of MyPhysio</p>
 
-              <img class="stories-img" src="./img/arthur-clarke.png" alt="Arthur Clarke" width="62" height="62">
+              <img class="stories__img" src="./img/arthur-clarke.png" alt="Arthur Clarke" width="62" height="62">
             </li>
           </ul>
+
         </div>
       </div>
     </section>
-    
+
+    <section class="get__section">
+      <div class="container">
+        <div class="get__div">
+          <h2 class="get__heading">Ready to get started?</h2>
+
+          <a class="get__link" href="#">contact us</a>
+        </div>
+      </div>
+    </section>
+
   </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item-1">
+          <a href="#"><img src="./img/footer.svg" alt="Footer logo"></a>
+          <a class="footer__link-mini" href="#">home</a>
+          <a class="footer__link-mini" href="#">about</a>
+        </div>
+
+
+        <ul class="footer__list">
+          <li class="footer__item">987 Hillcrest Lane</li>
+
+          <li class="footer__item">Irvine, CA</li>
+
+          <li class="footer__item">California 92714</li>
+
+          <li class="footer__item">Call Us :<a href="tel:949-833-7432"> 949-833-7432</a></li>
+        </ul>
+
+    
+
+
+        <div class="footer__media-div">
+
+          <ul class="footer__item-media">
+            <li><a href="#"><img src="./img/facebook2.svg" alt="facebook2"></a></li>
+
+            <li><a href="#"><img src="./img/pinterest.svg" alt="facebook2"></a></li>
+
+            <li><a href="#"><img src="./img/twitter.svg" alt="facebook2"></a></li>
+
+
+          </ul>
+
+          <p class="footer__copyright">Copyright 2020. All Rights Reserved</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
 
 </body>
 
